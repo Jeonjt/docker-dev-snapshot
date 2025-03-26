@@ -80,14 +80,14 @@ chmod +x snapshot_2lwd_dev.sh
 ## ⚠️ 주의사항
 
 - Windows에서 작성한 `.sh` 파일은 **줄바꿈(LF)** 로 저장되어야 합니다
-  - `dos2unix` 명령어 또는 VS Code에서 CRLF → LF로 변경
+  - `dos2unix` 명령어 또는 VSCode에서 CRLF → LF로 변경
 - Docker Hub 로그인 시 `docker login` 필요 (권한 설정 포함)
 
 ---
 
 ## 📌 환경 정보
 
-- OS: Windows 11 + WSL2 (Ubuntu 20.04)
+- OS: Windows 11 + WSL2 (Ubuntu 22.04)
 - Docker Engine: WSL2 backend
 - Shell: Bash (`#!/usr/bin/env bash` 사용)
 
@@ -106,12 +106,6 @@ chmod +x snapshot_2lwd_dev.sh
 
 ## 👨‍💻 Author
 
-- **via@VIA-2102**
-- Researcher @ VIA Lab  
+- Researcher Jeonjt@ VIA Lab  
 - Focused on Vision-Based Autonomous Agricultural Systems
 
----
-
-## 📜 License
-
-MIT License (또는 연구실 내부용이면 선택 안 함)
