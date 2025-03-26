@@ -35,3 +35,4 @@ EOF
 
 chmod +x ${RUN_SCRIPT}
 echo "실행 스크립트 생성 완료: ./${RUN_SCRIPT}"
+
